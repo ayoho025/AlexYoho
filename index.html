@@ -37,20 +37,205 @@
       href="https://necolas.github.io/normalize.css/8.0.1/normalize.css
     "
     />
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.5/build/pure-min.css" integrity="sha384-LTIDeidl25h2dPxrB2Ekgc9c7sEC3CWGM6HeFmuDNUjX76Ert4Z4IY714dhZHPLd" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.5/build/grids-responsive-min.css" />
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <link type="text/css" rel="stylesheet" href="/css/lg-transitions.min.css" />
     <link rel="stylesheet" href="/css/styles.css" />
   </head>
 
   <body>
-    <h1>Alex Yoho</h1>
-
-    <img src="/img/my-pic.jpg" alt="Alex Yoho" />
-
-    <p>
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam harum
-      sunt ducimus, debitis eum soluta nesciunt ex officia distinctio sit
-      temporibus, omnis explicabo cum repellendus quisquam vero in architecto
-      voluptates?
-    </p>
+    <!-----------------------------------Header ------------------------------------------->
+    <div class="header">
+        <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
+            <a class="pure-menu-heading" href=""><svg width="270" height="286" viewBox="0 0 270 286" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M32 1L9 15L0 42L4 74L23 101L6 144L21 212L135 286L248 212L263 144L247 101L265 74L270 43L261 16L240 0L201 26L178 16L134 7L92 15L68 26L32 1ZM73 32L93 21L134 12L175 21L196 32L242 104L257 145L240 207L194 235L178 240L188 213V193H207L220 181L221 154L212 144L201 130L194 119L169 127L167 158L153 152L134 150L117 152L103 157L101 128L76 118L69 129L59 142L48 153V180L61 193L81 194V212L92 240L77 236L29 207L12 145L27 103L73 32ZM98 237L115 256L135 261L153 256L172 237L160 242L142 241L134 237L127 241H109L98 237ZM96 235L110 238L132 232V225L109 220L101 205L108 211L117 209H152L160 212L167 204L161 220L137 224V232L159 238L172 236L182 213L183 194L167 162L153 155L135 152L117 155L103 161L86 194V212L96 235Z" fill="#2F0D01" />
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M32 1L9 15L0 42L4 74L23 101L6 144L21 212L135 286L248 212L263 144L247 101L265 74L270 43L261 16L240 0L201 26L178 16L134 7L92 15L68 26L32 1ZM73 32L93 21L134 12L175 21L196 32L242 104L257 145L240 207L194 235L178 240L188 213V193H207L220 181L221 154L212 144L201 130L194 119L169 127L167 158L153 152L134 150L117 152L103 157L101 128L76 118L69 129L59 142L48 153V180L61 193L81 194V212L92 240L77 236L29 207L12 145L27 103L73 32ZM98 237L115 256L135 261L153 256L172 237L160 242L142 241L134 237L127 241H109L98 237ZM96 235L110 238L132 232V225L109 220L101 205L108 211L117 209H152L160 212L167 204L161 220L137 224V232L159 238L172 236L182 213L183 194L167 162L153 155L135 152L117 155L103 161L86 194V212L96 235Z" fill="#2F0D01" /></svg>
+            </a>
+    
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item pure-menu-selected"><a href="#" class="pure-menu-link">Home</a></li>
+                <li class="pure-menu-item"><a href="#" class="pure-menu-link">Projects</a></li>
+                <li class="pure-menu-item"><a href="#" class="pure-menu-link">Contact Me</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="splash-container">
+        <div class="splash">
+            <h1 class="splash-head">Alex Yoho</h1>
+            <img class="pure-img-responsive portrait" src="/img/my-pic.jpg" alt="Alex Yoho" />
+            <p class="splash-subhead">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam harum
+                sunt ducimus, debitis eum soluta nesciunt ex officia distinctio sit
+                temporibus, omnis explicabo cum repellendus quisquam vero in architecto
+                voluptates?
+            </p>
+        </div>
+    </div>
+    <!-----------------------------------Lightbox ------------------------------------------->
+    <div class="content-wrapper">
+        <div class="content">
+            <h2 class="content-head is-center">My Projects.</h2>
+            <div class="lightgallery">
+              <div class="pure-g">
+                <figure class="pure-u-1-5">
+                    <a class="lg" href="/img/DystopianFull.png">
+                    <div class="container project">
+                        <h3 class="title project">Text fadeIn top</h3>
+                        <div class="content project">
+                            <div class="content-overlay project"></div>
+                              
+                                <img class="content-image project" src="/img/Dystopian.jpg" alt="Dystopian">
+                              
+                              <div class="content-details fadeIn-top">
+                              <h3>This is a title</h3>
+                              <p>This is a short description</p>
+                            </div>
+                        </div>
+                      </div>
+                    </a>
+                </figure>
+                <figure class="pure-u-1-5">
+                    <a class="lg" href="/img/Sound-Of-ArtFull.jpg">
+                    <div class="container project">
+                        <h3 class="title project">Text fadeIn top</h3>
+                        <div class="content project">
+                            <div class="content-overlay project"></div>
+                              
+                                <img class="content-image project" src="/img/Sound-Of-Art.jpg" alt="Sound-Of-Art">
+                              
+                            <div class="content-details fadeIn-top">
+                              <h3>This is a title</h3>
+                              <p>This is a short description</p>
+                            </div>
+                        </div>
+                      </div>
+                    </a>
+                </figure>
+                <figure class="pure-u-1-5">
+                    <a href="/img/The-SunFull.jpg">
+                    <div class="container project">
+                        <h3 class="title project">Text fadeIn top</h3>
+                        <div class="content project">
+                            <div class="content-overlay project"></div>
+                              
+                                <img class="content-image project" src="/img/The-Sun.jpg" alt="The-Sun">
+                              
+                            <div class="content-details fadeIn-top">
+                              <h3>This is a title</h3>
+                              <p>This is a short description</p>
+                            </div>
+                          
+                        </div>
+                      </div>
+                    </a>
+                </figure>
+                <figure class="pure-u-1-5">
+                    <a href="/img/hierarchy-and-meaningFull.jpg">
+                  <div class="container project">
+                      <h3 class="title project">Text fadeIn top</h3>
+                      <div class="content project">
+                          <div class="content-overlay project"></div>
+                            
+                              <img class="content-image project" src="/img/hierarchy-and-meaning.jpg" alt="hierarchy-and-meaning">
+                            
+                          <div class="content-details fadeIn-top">
+                            <h3>This is a title</h3>
+                            <p>This is a short description</p>
+                          </div>
+                        
+                      </div>
+                    </div>
+                  </a>
+                </figure>
+                <figure class="pure-u-1-5">
+                    <a href="/img/BrunchMenu1Full.jpg">
+                    <div class="container project">
+                        <h3 class="title project">Text fadeIn top</h3>
+                        <div class="content project">
+                            <div class="content-overlay project"></div>
+                              
+                                <img class="content-image project" src="/img/BrunchMenu1.jpg" alt="BrunchMenu1">
+                              
+                            <div class="content-details fadeIn-top">
+                              <h3>This is a title</h3>
+                              <p>This is a short description</p>
+                            </div>
+                          
+                        </div>
+                      </div>
+                    </a>
+                </figure>
+                <figure class="pure-u-1-5">
+                    <a href="/img/DinnerMenu1Full.jpg">
+                    <div class="container project">
+                        <h3 class="title project">Text fadeIn top</h3>
+                        <div class="content project">
+                            <div class="content-overlay project"></div>
+                              
+                                <img class="content-image project" src="/img/DinnerMenu1.jpg" alt="DinnerMenu1">
+                              
+                            <div class="content-details fadeIn-top">
+                              <h3>This is a title</h3>
+                              <p>This is a short description</p>
+                            </div>
+                          
+                        </div>
+                      </div>
+                    </a>
+                </figure>
+            </div>
+          </div>
+        </div>
+    
+        <div class="content">
+            <h2 class="content-head is-center">Dolore magna aliqua. Uis aute irure.</h2>
+    
+            <div class="pure-g">
+                <div class="l-box-lrg pure-u-1 pure-u-md-2-5">
+                    <form class="pure-form pure-form-stacked">
+                        <fieldset>
+    
+                            <label for="name">Your Name</label>
+                            <input id="name" type="text" placeholder="Your Name">
+    
+    
+                            <label for="email">Your Email</label>
+                            <input id="email" type="email" placeholder="Your Email">
+    
+                            <label for="password">Your Password</label>
+                            <input id="password" type="password" placeholder="Your Password">
+    
+                            <button type="submit" class="pure-button">Sign Up</button>
+                        </fieldset>
+                    </form>
+                </div>
+    
+                <div class="l-box-lrg pure-u-1 pure-u-md-3-5">
+                    <h4>Contact Us</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat.
+                    </p>
+    
+                    <h4>More Information</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                </div>
+            </div>
+    
+        </div>
+    
+        <div class="footer l-box is-center">
+            Thank you for looking at my site!
+        </div>
+    
+    </div>
+    <!-----------------------------------Contact Form ------------------------------------------->
 
     <h2>Contact</h2>
     <form
@@ -79,7 +264,7 @@
         <button type="submit">Send</button>
       </p>
     </form>
-
+    <script src="/js/lightgallery.min.js"></script>
     <script src="/js/scripts.js"></script>
   </body>
 </html>
