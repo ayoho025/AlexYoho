@@ -1,7 +1,6 @@
-const portfolio = document.querySelector("lightgallery");
+const portfolio = document.querySelector(".lightgallery");
 
 lightGallery(portfolio, {
-  selector: "a",
-  mode: "lg-slide-skew-cross",
+  selector: ".lg",
   download: false
 });

@@ -156,10 +156,18 @@ label {
   justify-content: center;
 }
 
+.content-head .is-center .ContactMe {
+  margin-bottom: -5em;
+}
+
 .pure-form label {
   margin: 1em 0 0;
   font-weight: bold;
   font-size: 100%;
+}
+
+.pure-form.pure-form-stacked {
+  margin-bottom: 5em;
 }
 
 .pure-form input[type] {
