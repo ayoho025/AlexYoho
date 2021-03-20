@@ -9,6 +9,14 @@
   float: left;
 }
 
+.project-titles {
+  color: white;
+}
+
+.project-details {
+  color: white;
+}
+
 @media screen and (max-width: 640px) {
   .container.project {
     display: block;
