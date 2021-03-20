@@ -402,3 +402,10 @@ a.pure-button-primary {
     font-size: 300%;
   }
 }
+
+.gif {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
